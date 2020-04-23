@@ -1,0 +1,24 @@
+.caixa-contato{
+    height: 654px;
+    margin-top: 9em;
+    margin-bottom: 9em;
+    width: 720;
+    background-color: #eaecf9;
+}
+.section1-contato{
+    height: 655px;
+    background-color: #d7d9e0;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+.focusBorder:focus{
+    box-shadow: 0 0 0 0.2rem rgba(255, 188, 0, 0.31);
+}
+.parallax{
+    background-image: url('../../assets/img/t-rex.jpg');
+    min-height: 500px; /*minimo de altura */
+    background-attachment: fixed; /* Isso faz com que essa imagem fique fixa no background */
+    background-position: center; /* A imagem fica no centro */
+    background-repeat: no-repeat; /* para não repetir */
+    background-size: cover; /* Para não repetir */
+}

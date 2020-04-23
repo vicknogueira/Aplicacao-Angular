@@ -1,0 +1,32 @@
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.row{
+    margin: 0;
+}
+section{
+
+
+}
+.navdiv{
+    border-radius: 6px;
+    margin: 0 0 2em 0;
+    position: relative;
+    margin-top: -1em;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+.navbarRedondo{
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    padding: 16px;
+    background-color: white;
+}

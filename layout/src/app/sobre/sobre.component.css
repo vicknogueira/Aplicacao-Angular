@@ -1,0 +1,42 @@
+.title-sobre{
+    font-weight: 300;
+    color: #4e4e52;
+    letter-spacing: 1.5px;
+}
+.paragraph-sobre{
+    font-weight: 300;
+}
+.main-container{
+    height: 160rem;
+}
+.section1-sobre{
+    height: 300px;
+}
+
+/* ___________ <hr> ________________________________________ */
+.linha-sobre{
+    border-top: 1px solid rgba(0, 0, 0, 0.22);
+}
+/*______________________ Carousel_____________________________ */
+.card-title{
+    font-weight: 400;
+}
+.card-text{
+    font-weight: 200;
+}
+.btn-seta-carousel{
+    width: 5%!important;
+}
+.btn-carousel:hover{
+    background-color: #e4e4e4;
+}
+/* Icones do Carousel */
+.faChevronLeft, .faChevronRight{
+    color:#9c9c9c;
+}
+/* ______________ Fim do Carousel ______________________________ */
+
+.girar:hover{
+    transition: 1s;
+    transform: rotateZ(360deg);
+}

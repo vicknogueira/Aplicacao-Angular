@@ -1,0 +1,115 @@
+.title-home{
+    font-weight: 300;
+    color: #4e4e52;
+    letter-spacing: 1.5px;
+}
+.paragraph-home{
+    font-weight: 300;
+}
+.main-container{
+    height: 150rem;
+}
+.section1-home{
+    height: 405px;
+}
+.section2-home{
+    height: 30rem;
+}
+/* ___________ <hr> ________________________________________ */
+.linha-home{
+    border-top: 1px solid rgba(0, 0, 0, 0.22);
+}
+/* ___________ Fim <hr> ________________________________________ */
+.card-img {
+    height: 12em;
+}
+.card{
+    max-width: 630px!important;
+    cursor: pointer;
+}
+
+.parallax{
+    background-image: url('../../assets/img/1884819.jpg');
+    min-height: 300px; /*minimo de altura */
+    background-attachment: fixed; /* Isso faz com que essa imagem fique fixa no background */
+    background-position: center; /* A imagem fica no centro */
+    background-repeat: no-repeat; /* para não repetir */
+    background-size: cover; /* Para não repetir */
+}
+
+@media(max-width: 770px){
+    .w-especies{
+        width: 40%;
+    }
+    .w-noticias{
+        width: 100%;
+    }
+    .card{
+        max-width: 590px!important;
+    }
+    .row{
+        flex-wrap: unset!important;      
+    }
+    .main-container{
+        height: 158rem;
+    }
+    .footerPadding{
+        height: 686px;
+    }
+    .w-img-noticia{
+        width: 53%;
+    }
+}
+@media(max-width: 640px){
+    .w-noticias{
+        width: 61%;
+        margin-left: 119px;
+    
+    }
+    .card{
+        max-width: 472px!important;
+    }
+    .row{
+        flex-wrap: wrap!important;
+    }
+    .w-img-noticia{
+        width: 100%;
+    }
+    .main-container{
+        height: 183rem;
+    }
+}
+
+@media(max-width: 565px){
+    .w-noticias{
+        width: 71%;
+        margin-left: 66px;
+    }
+    .card{
+        max-width: 472px!important;
+    }
+    .row{
+        flex-wrap: wrap!important;
+    }
+    .w-img-noticia{
+        width: 100%;
+    }
+    .main-container{
+        height: 186rem;
+    }
+    .paragraph-home{
+        width: 310px!important;
+    }
+}
+@media(max-width:450px){
+    .main-container{
+        height: 198rem;
+    }
+    .w-especies{
+        width: 50%;
+    }
+    .w-noticias{
+        width: 77%;
+        margin-left: 38px;
+    }
+}
