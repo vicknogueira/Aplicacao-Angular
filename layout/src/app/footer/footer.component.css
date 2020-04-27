@@ -39,3 +39,18 @@
 .faInstagram:hover{
     color:#5a1b47;
 }
+
+@media(max-width: 490px){
+    .footer-responsive{
+        display: block!important;
+
+    }
+    .div-responsiva{
+        margin-bottom: 54px;
+    }
+    .footerPadding{
+        height: 746px;
+    }
+
+    
+}

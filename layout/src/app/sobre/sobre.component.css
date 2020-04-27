@@ -1,9 +1,8 @@
 .title-sobre{
-    font-weight: 300;
     color: #4e4e52;
     letter-spacing: 1.5px;
 }
-.paragraph-sobre{
+.paragraph-sobre, .title-sobre, .paragraph-texto-Inicial{
     font-weight: 300;
 }
 .main-container{
@@ -27,16 +26,60 @@
 .btn-seta-carousel{
     width: 5%!important;
 }
+.btn-carousel{
+    color: #d87618;
+}
 .btn-carousel:hover{
     background-color: #e4e4e4;
+    color: #d87618;
 }
 /* Icones do Carousel */
 .faChevronLeft, .faChevronRight{
     color:#9c9c9c;
+}
+.row{
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+.grupos-responsive{
+    visibility: hidden;
 }
 /* ______________ Fim do Carousel ______________________________ */
 
 .girar:hover{
     transition: 1s;
     transform: rotateZ(360deg);
+}
+
+@media(max-width:770px){
+    .girar{
+        width: 13% !important;
+    }
+    .paragraph-sobre{
+        width: 65%;
+        text-align: justify!important;
+    }
+    .paragraph-texto-Inicial{
+        width: 25em!important;
+        text-align: justify!important;
+    }
+    .grupos{
+        visibility: hidden;
+        display: none;
+    }
+    .grupos-responsive{
+        visibility: visible!important;
+    }
+    .p-3{
+        padding: 0!important;
+    }
+}
+@media(max-width:490px){
+    .paragraph-sobre, .paragraph-texto-Inicial{
+        width: 310px!important;
+        text-align: justify!important;
+    }
+    .girar{
+        width: 25%!important;
+    }
 }

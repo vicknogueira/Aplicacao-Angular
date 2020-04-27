@@ -14,6 +14,16 @@
 .focusBorder:focus{
     box-shadow: 0 0 0 0.2rem rgba(255, 188, 0, 0.31);
 }
+.btn-marrom{
+    color: #fff;
+    background-color: #4c310ae6;
+    border-color: #4c310a;
+}
+.btn-marrom:hover{
+    color: #fff;
+    background-color: #4c310ad4;
+    border-color: #4c310a;
+}
 .parallax{
     background-image: url('../../assets/img/t-rex.jpg');
     min-height: 500px; /*minimo de altura */
@@ -21,4 +31,94 @@
     background-position: center; /* A imagem fica no centro */
     background-repeat: no-repeat; /* para não repetir */
     background-size: cover; /* Para não repetir */
+}
+@media(max-width:875px){
+    .section1-contato{
+        height: 689px;
+        background-color: #1f1d1d;;
+        border-radius: 22px;
+        width: 50em;
+        margin-top: 14em;
+        margin-right: 0!important;
+        color: #686c71;
+    }
+    .form-control{
+        border-bottom: 2px solid white!important;
+        border-radius: 0;
+        background-color: #1f1d1d;
+        border: 0;
+    }
+    .parallax{
+        width: 89%!important;
+        min-width: 87%;
+    }
+    .caixa-contato{
+        height: 868px;
+        border-radius: 22px;
+    }
+    .row{
+        flex-wrap: nowrap!important;
+    }
+    .container{
+        padding: 0;
+
+    }
+}
+@media(max-width:770px){
+    .section1-contato{
+        height: 727px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2em;
+    }
+
+}
+@media(max-width:650px){
+    h1{
+        font-size: 30px;
+    }
+    .caixa-contato{
+        height: 53em;
+    }
+    .section1-contato{
+        height: 709px;
+        margin-top: 9em;
+    }
+}
+@media(max-width: 550px){
+    .row{
+        flex-wrap: wrap!important;
+    }
+    .section1-contato{
+        height: 742px;
+        margin-top: 9em;
+    }
+    .caixa-contato{
+        height: 55em;
+    }
+
+}
+
+@media(max-width:500px){
+    .parallax{
+        width: 94%!important;
+    }
+    .section1-contato{
+        padding-left: 2em!important;
+        padding-right: 2em!important;
+    }
+    h1{
+        font-size: 26px;
+    }
+    p{
+        font-size: 17px;
+    }
+}
+@media(max-width:387px){
+    h1{
+        font-size: 20px;
+    }
+    .section1-contato{
+        padding-top: 2em!important;
+    }
 }

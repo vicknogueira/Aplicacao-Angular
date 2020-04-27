@@ -15,6 +15,21 @@
 .section2-home{
     height: 30rem;
 }
+.btn-especies{
+    color: #e57e25;
+    border: 1px solid #e57e25;
+    background-attachment: white;
+}
+.btn-noticias,.btn-especies:hover{
+    border: 1px solid #e57e25;
+    color: white;
+    background-color: #e57e25;
+}
+.btn-noticias:hover{
+    border: 1px solid #e4924b;
+    color: white;
+    background-color: #e4924b;
+}
 /* ___________ <hr> ________________________________________ */
 .linha-home{
     border-top: 1px solid rgba(0, 0, 0, 0.22);
