@@ -1,3 +1,4 @@
+/* -------------- Banner -------------- */
 .imgbanner {
     vertical-align: middle;
     border-style: none;
@@ -6,12 +7,14 @@
     width: 100%;
     background-attachment: scroll, fixed;
     box-shadow: 0px 0px 0px 2px;
-    filter: blur(2px);
+    filter: blur(3px);
 }
+/*  ------------- <hr> ------------------- */
 .linha{
     border-top: 1px solid #d6d6d6f2;
     width: 252px;
 }
+/* -------------- Logo e subtitulo ------------- */
 .divTitle{
     position: absolute;
     z-index: 1;
@@ -27,6 +30,7 @@
     letter-spacing: 0.5px;
     font-weight: 100;
 }
+/* ------------- Seta para âncora -------------- */
 .Seta{
     width: 50px;
     height: 50px;
@@ -43,6 +47,9 @@
 .Seta:hover{
     background-color: #151414e6;
 }
+
+/* --------------- Media query -------------- */
+
 @media(max-width: 665px){
     .divTitle{
         margin: 0!important;

@@ -1,3 +1,7 @@
+/* --------------------- nav, li, ul, a parte de navegação ---------------------- */
+nav{
+    padding-top: 0!important;
+}
 li{
     list-style: none;
 }
@@ -18,9 +22,6 @@ ul{
     height: 49px;
     padding-left: 0;
 }
-nav{
-    padding-top: 0!important;
-}
 a:hover{
     background-color: #1f1d1d;
     border-bottom-left-radius: 22px;
@@ -37,12 +38,6 @@ a:focus-within{
     color: #a7501e !important;
     text-decoration: none;
 }
-
-/* li:hover > a{
-    transition: 0.5s;
-    color: #a7501e !important;
-    text-decoration: none;
-} */
 .row{
     margin: 0;
 }
@@ -63,6 +58,9 @@ a:focus-within{
     padding: 16px;
     background-color: white;
 }
+
+
+/*  ---------------- media query -------------------- */
 @media(max-width:770px){
     ul{
         padding: 0;

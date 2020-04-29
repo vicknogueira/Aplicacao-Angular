@@ -1,3 +1,9 @@
+/* ----------------- Container -------------------- */
+.main-container{
+    height: 150rem;
+}
+/* -----------------Fim de container ----------------- */
+/*------------ Sessão introdução a paleontologia-------------- */
 .title-home{
     font-weight: 300;
     color: #4e4e52;
@@ -6,43 +12,12 @@
 .paragraph-home{
     font-weight: 300;
 }
-.main-container{
-    height: 150rem;
-}
 .section1-home{
     height: 405px;
 }
-.section2-home{
-    height: 30rem;
-}
-.btn-especies{
-    color: #e57e25;
-    border: 1px solid #e57e25;
-    background-attachment: white;
-}
-.btn-noticias,.btn-especies:hover{
-    border: 1px solid #e57e25;
-    color: white;
-    background-color: #e57e25;
-}
-.btn-noticias:hover{
-    border: 1px solid #e4924b;
-    color: white;
-    background-color: #e4924b;
-}
-/* ___________ <hr> ________________________________________ */
-.linha-home{
-    border-top: 1px solid rgba(0, 0, 0, 0.22);
-}
-/* ___________ Fim <hr> ________________________________________ */
-.card-img {
-    height: 12em;
-}
-.card{
-    max-width: 630px!important;
-    cursor: pointer;
-}
+/* ------------ Fim da Introdução a paleontologia -------------- */
 
+/* ----------------Parallax ------------------*/
 .parallax{
     background-image: url('../../assets/img/1884819.jpg');
     min-height: 300px; /*minimo de altura */
@@ -52,12 +27,55 @@
     background-size: cover; /* Para não repetir */
 }
 
+
+/* ------------- Sessão sobre as espécies ----------- */
+.section2-home{
+    height: 30rem;
+}
+.btn-especies{
+    color: #e57e25;
+    border: 1px solid #e57e25;
+    background-attachment: white;
+}
+.img-width{
+    width: 40%;
+}
+/* ------------------- <hr> ---------------- */
+.linha-home{
+    border-top: 1px solid rgba(0, 0, 0, 0.22);
+}
+/* -------------- Fim <hr> ----------------- */
+
+/* -------------- Sessão noticias ---------------------- */
+ .btn-noticias,.btn-especies:hover{
+    border: 1px solid #e57e25;
+    color: white;
+    background-color: #e57e25;
+}
+.btn-noticias:hover{
+    border: 1px solid #e4924b;
+    color: white;
+    background-color: #e4924b;
+} 
+.card-img {
+    height: 12em;
+}
+.card{
+    max-width: 630px!important;
+    cursor: pointer;
+}
+/*-------------------- Fim da sessão ---------------------*/
+
+/* --------------- Media querys --------------------------- */
 @media(max-width: 770px){
     .w-especies{
         width: 40%;
     }
     .w-noticias{
         width: 100%;
+    }
+    .img-width{
+        width: 50%;
     }
     .card{
         max-width: 590px!important;
@@ -79,8 +97,8 @@
     .w-noticias{
         width: 61%;
         margin-left: 119px;
-    
     }
+
     .card{
         max-width: 472px!important;
     }

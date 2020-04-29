@@ -1,3 +1,8 @@
+/* ---------- Container ---------------- */
+.main-container{
+    height: 160rem;
+}
+/* ------------- Sessão introducao de paleontologia -----------  */
 .title-sobre{
     color: #4e4e52;
     letter-spacing: 1.5px;
@@ -5,18 +10,16 @@
 .paragraph-sobre, .title-sobre, .paragraph-texto-Inicial{
     font-weight: 300;
 }
-.main-container{
-    height: 160rem;
-}
 .section1-sobre{
     height: 300px;
 }
 
-/* ___________ <hr> ________________________________________ */
+/* --------------------<hr>------------------------------ */
 .linha-sobre{
     border-top: 1px solid rgba(0, 0, 0, 0.22);
 }
-/*______________________ Carousel_____________________________ */
+
+/*------------------------------ Carousel------------------------------ */
 .card-title{
     font-weight: 400;
 }
@@ -28,12 +31,13 @@
 }
 .btn-carousel{
     color: #d87618;
+    border: 1px solid;
 }
 .btn-carousel:hover{
     background-color: #e4e4e4;
     color: #d87618;
 }
-/* Icones do Carousel */
+/* ---------------- Icones do Carousel ----------------*/
 .faChevronLeft, .faChevronRight{
     color:#9c9c9c;
 }
@@ -44,13 +48,14 @@
 .grupos-responsive{
     visibility: hidden;
 }
-/* ______________ Fim do Carousel ______________________________ */
+/* ---------------- Fim do Carousel ------------------------- */
 
+/* ------------- Sobre a paleontologia --------------------- */
 .girar:hover{
     transition: 1s;
     transform: rotateZ(360deg);
 }
-
+/* ----------------- Media query ------------------------ */
 @media(max-width:770px){
     .girar{
         width: 13% !important;
